@@ -9,6 +9,7 @@ pydantic = {extras = ["email"], version = "*"}
 python-multipart = "*"
 pyjwt = {extras = ["crypto"], version = "*"}
 passlib = {extras = ["bcrypt"], version = "*"}
+sqlmodel = "*"
 
 [dev-packages]
 
