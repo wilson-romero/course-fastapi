@@ -10,6 +10,8 @@ python-multipart = "*"
 pyjwt = {extras = ["crypto"], version = "*"}
 passlib = {extras = ["bcrypt"], version = "*"}
 sqlmodel = "*"
+httpx = "*"
+pytest = "*"
 
 [dev-packages]
 
