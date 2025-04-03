@@ -14,7 +14,7 @@ from pydantic import BaseModel
 # openssl genpkey -algorithm RSA -out private.pem -pkeyopt rsa_keygen_bits:2048
 
 # Extrae la clave pública correspondiente
-# openssl rsa - pubout - in private.pem - out public.pem
+# openssl rsa -pubout -in private.pem -out public.pem
 
 with open("./private.pem", "rb") as f:
     PRIVATE_KEY = f.read()
